@@ -1,0 +1,37 @@
+name: food_detection_protein
+description: "Food"
+publish_to: 'none'  # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Image picker for image selection from gallery or camera
+  image_picker: ^0.8.5+3
+
+  camera: ^0.10.0+5 #open camera in the phone
+  http: ^0.13.3 #http request for the api to work
+
+
+  # Cupertino Icons for iOS style icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Lints for better coding practices
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets like model and labels files here
+  assets:
+    - assets/model_unquant.tflite
+    - assets/labels.txt
