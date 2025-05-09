@@ -33,5 +33,5 @@ flutter:
 
   # Add assets like model and labels files here
   assets:
-    - assets/model_unquant.tflite
-    - assets/labels.txt
+#    - assets/model_unquant.tflite
+#    - assets/labels.txt
